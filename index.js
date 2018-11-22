@@ -7,10 +7,11 @@ const line = require("@line/bot-sdk"); // Messaging APIのSDKをインポート
 // パラメータ設定
 const ACCESS_TOKEN = 'V206n6VoibKzYZZScoHBuB3TDmAQZX79fWcn1PVJDgx3MLuWZAtPDt1Skpm3u9Zl82+rz9uhbN/pTKv1YrmMfgUuPiJgKOgobFGnYFHv2IlES13DZ+9ObCGaDZMbj73rFsNtwTlNR4nQZehAPF3RxgdB04t89/1O/w1cDnyilFU='
 const CHANNEL_SECRET = 'a1847c4717368b47d2c0ad7b00d43747'
-const DATABASE_URL = 'ec2-50-16-196-57.compute-1.amazonaws.com'
+const DATABASE_URL = ''
+
 
 const line_config = {
-    channelAccessToken:ACCESS_TOKEN, 
+    channelAccessToken:ACCESS_TOKEN,
     channelSecret:CHANNEL_SECRET
 };
 
