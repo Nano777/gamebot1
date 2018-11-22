@@ -11,9 +11,9 @@ const DATABASE_URL = 'ec2-50-16-196-57.compute-1.amazonaws.com'
 
 
 const line_config = {
-    channelAccessToken:ACCESS_TOKEN, 
+    channelAccessToken:ACCESS_TOKEN,
     channelSecret:CHANNEL_SECRET
-};
+}
 
 // -----------------------------------------------------------------------------
 // Webサーバー設定
